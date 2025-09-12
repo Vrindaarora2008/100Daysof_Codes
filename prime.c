@@ -8,12 +8,12 @@ temp=n;
 for(int i=1;i<=n-1;i++)
 if(temp%i==0)
 {
-    printf("It is prime");
+    printf("It is not prime");
     break;
 }
 else
 {
-    printf("It is not prime");
+    printf("It is prime");
 }
     return 0;
 }
